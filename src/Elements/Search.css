@@ -20,7 +20,7 @@
     width: 90%;
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     margin-bottom: 5px;
   }
@@ -36,7 +36,7 @@
   }
   
   .hero-button:hover {
-    background-color: blue;
+    background-color: rgb(222, 87, 87);
   }
   @media (min-width: 600px) {
     .hero-content {
