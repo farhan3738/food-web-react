@@ -1,9 +1,12 @@
+import Nav from "./Elements/Nav";
+
 function App() {
   
   return (
     <>
-    <h1>Set up . . .</h1>
+    <Nav/>
     </>
+
   )
 }
 
