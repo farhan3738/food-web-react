@@ -1,5 +1,5 @@
 import React from 'react';
-import './Explore.css';
+import './Items.css';
 import Pizza from '../assets/pizza.jpg';
 import Burger from '../assets/burger.jpg';
 import Wraps from '../assets/wraps.jpg';
@@ -19,7 +19,7 @@ const Items = () => {
         </div>
         <div className="food-item">
           <img src={Wraps}alt="Momo" />
-          <div className="food-name">Momo</div>
+          <div className="food-name">Wraps</div>
         </div>
       </div>
     </div>

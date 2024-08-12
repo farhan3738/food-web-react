@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .food-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .food-item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .food-item img {
+    width: 100%;
+    height: 120%;
+    border-radius: 5px;
+  }
+  
+  .food-name {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  img {
+    border-radius: 0%;
+}
