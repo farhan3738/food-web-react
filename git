@@ -1,0 +1,1 @@
+"# food-web-react"  initgit add .git commit -m "first commit"git branch -M maingit remote add origin https://github.com/farhan3738/food-web-react.gitgit push -u origin main
