@@ -9,7 +9,7 @@ function Search() {
         <button className="hero-button">Search</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Search;

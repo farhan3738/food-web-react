@@ -1,5 +1,6 @@
 import Nav from "./Elements/Nav";
 import Search from "./Elements/Search";
+import Items from "./Elements/Items";
 
 function App() {
   
@@ -7,9 +8,10 @@ function App() {
     <>
     <Nav/>
     <Search/>
+    <Items/>
     </>
 
-  )
-}
+  );
+};
 
 export default App
