@@ -1,6 +1,7 @@
 import Nav from "./Elements/Nav";
 import Search from "./Elements/Search";
 import Items from "./Elements/Items";
+import Menu from "./Elements/Menu";
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <Nav/>
     <Search/>
     <Items/>
+    <Menu/>
     </>
 
   );

@@ -1,0 +1,79 @@
+.Appp{
+    margin-top: 20px;
+    background: rgba(228, 223, 223, 0.644);
+  }
+  h1 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .food-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .food-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .food-details {
+    text-align: left;
+  }
+  
+  .food-details h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .food-details p {
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+
+  button:hover {
+    background-color: #e5533d; 
+    transform: scale(1.05); 
+  }
+  
+  .see-all {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .see-all a {
+    color: #ff5a5f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
